@@ -14,6 +14,7 @@ int main(){
             }
         }
         if(frq>n/2)
-            cout<<val;
+            cout<<val<<" ";
     }
+    cout<<"-1";
 }
