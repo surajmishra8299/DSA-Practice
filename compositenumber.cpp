@@ -15,7 +15,7 @@ int main(){
         if(num>1){
             for(int j=2;j<num;j++){
                 if(num%j==0){
-                     isC = true;
+                    isC = true;
                     break;
                 }
             }
