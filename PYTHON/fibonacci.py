@@ -3,6 +3,4 @@ def fib(n):
         return n
     return fib(n-1)+fib(n-2)
 
-n=5
-for i in range(5):
-    print(fib(n))
+print(fib(6))
