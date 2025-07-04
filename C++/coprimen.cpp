@@ -2,13 +2,13 @@
 #include <vector>
 
 int main() {
-     std::vector<int> arr = {2,3,6, 5,7,11}; 
+     std::vector<int> arr = {2,3,6,5,7,11,15,8}; 
 
     bool arePairwiseCoprime = true;
 
      for (size_t i = 0; i < arr.size(); ++i) {
         for (size_t j = i + 1; j < arr.size(); ++j) {
-             int num1 = arr[i];
+            int num1 = arr[i];
             int num2 = arr[j];
             int smallerNum = (num1 < num2) ? num1 : num2;
 
