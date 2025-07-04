@@ -4,19 +4,20 @@ def Armstrong(n):
     count=0
     temp=n
     while temp!=0:
-        count+1
-        temp = temp/10
-    
+        count += 1
+        temp = temp//10
+        break
     num = n
     while num!=0:
         digit=num%10
         sum=sum+pow(digit,count)
-        num=num/10
+        num=num//10
+        
 
     if n==sum:
         print("Yes")
     else:
         print("Not")
-
-arr = 153
-print(Armstrong(arr))
+    
+arr = 1533
+Armstrong(arr)
