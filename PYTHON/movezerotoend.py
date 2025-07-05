@@ -1,6 +1,7 @@
 def movezero(arr):
     
     move = []
+    
     for i in arr:
         if i != 0:
             move.append(i)

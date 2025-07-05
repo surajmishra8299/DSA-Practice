@@ -3,6 +3,7 @@ def intersection(arr1,arr2):
     n1 = len(arr1)
     n2 = len(arr2)
     arr3 = []
+    
     for i in range(0,n1):
         for j in range(0,n2):
             if arr1[i] == arr2[j]:

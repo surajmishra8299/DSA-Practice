@@ -1,6 +1,5 @@
 def arrange(arr):
 
-    res = {}
     n = len(arr)
     s = 0
     e = n-1

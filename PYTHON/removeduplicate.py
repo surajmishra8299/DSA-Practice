@@ -1,6 +1,7 @@
 def removed(arr):
 
     remove = []
+    
     for num in arr:
         if num not in remove:
             remove.append(num)

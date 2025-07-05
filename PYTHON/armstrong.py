@@ -6,7 +6,7 @@ def Armstrong(n):
     while temp!=0:
         count += 1
         temp = temp//10
-        break
+    
     num = n
     while num!=0:
         digit=num%10

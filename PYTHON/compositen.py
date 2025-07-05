@@ -1,9 +1,9 @@
 def composite(arr):
  
     res = []
+    
     for num in arr:
         isC = False
-
         if num > 1:
             for j in range(2,num):
                 if num%j==0:
