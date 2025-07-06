@@ -1,3 +1,5 @@
+'''
+
 def removed(arr):
 
     remove = []
@@ -9,7 +11,6 @@ def removed(arr):
 
 num = [1,1,1,2,3,1,3,4,5,2]
 print(removed(num))
-
 
 '''
 
@@ -33,5 +34,3 @@ def remove_duplicates(arr):
 
 arr = [1, 1, 2, 3, 2, 4, 5, 3]
 print(remove_duplicates(arr))
-
-'''
