@@ -1,7 +1,13 @@
 def one(s,c):
 
-    n = len(s)
     count = 0
 
     for ch in s:
-        if ('a' <= ch <= 'z') or ('A' <= ch <= 'Z'):
+            if ch == c:
+                count += 1
+            
+    return count
+
+oneC = ('Hello World')
+letter = 'l'
+print(one(oneC,letter))
