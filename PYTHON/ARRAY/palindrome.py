@@ -13,5 +13,5 @@ def palindrome(arr):
     else:
         print("No")
 
-n = 1211
+n = 121
 palindrome(n)
