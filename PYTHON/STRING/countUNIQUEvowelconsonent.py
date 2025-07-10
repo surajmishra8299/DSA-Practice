@@ -16,5 +16,5 @@ def unique(s):
     print("Vowel:",vowel)
     print("Consonent:",conso)
 
-chr = ("Hello World")
-unique(chr)
+chra = ("Hello World")
+unique(chra)

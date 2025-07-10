@@ -13,5 +13,5 @@ def count(s):
     print("Vowel:",vowel)
     print("Consonent:",conso)
 
-chr = ("Hello World")
-count(chr)
+chra = ("Hello World")
+count(chra)
