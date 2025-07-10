@@ -6,8 +6,8 @@ Welcome to my **Data Structures and Algorithms (DSA)** repository where I solve 
 
 ## 🔥 What's Inside?
 
-- ✅ 100+ DSA problems solved
-- 📚 Covers all key topics:
+- ✅ DSA problems
+- 📚 key topics:
   - Arrays
   - Strings
   - Sorting & Searching
